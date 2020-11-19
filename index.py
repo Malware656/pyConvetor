@@ -4,7 +4,6 @@ import os
 def gcon(name):
     if '"' in name:
         name = name.replace('"', '')
-    # name = "G:\Codes\Codes\Exe_py\Converter\Tst"
     yes = ["YES", "Y", "y"]
     no = ['NO', "N", "n"]
     # print(os.path.split(name))
